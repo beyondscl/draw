@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T05:48:03.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="GJMdScyH66U68UOeQL4d" type="github" pages="2">
-  <diagram id="h-lG9uPtbz3TF0c7a31S" name="整体系统概览">
+<mxfile host="app.diagrams.net" modified="2022-12-07T05:58:53.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Jm5NzQCfD33Qfnxfwdvf" type="github" pages="4">
+  <diagram id="DlNOFr0t2-4WSMA_zAFA" name="整体功能概览">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -7,11 +7,48 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DlNOFr0t2-4WSMA_zAFA" name="第 2 页">
+  <diagram id="h-lG9uPtbz3TF0c7a31S" name="整体系统概览">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-1" value="账户系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-2" value="订单系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-3" value="资金系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-4" value="风控系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-5" value="撮合系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_tZXeZm_vvUy1FdhKq8L-6" value="外部系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_oMlUWShpKDj4yooTPMO" name="下单流程">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PgWq6MahFdyAJ7ZLqGPu" name="取消下单">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v3hjMBxPWjkD0NWoV2vM-1" value="账户系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="180" height="570" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
