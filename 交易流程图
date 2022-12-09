@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T09:54:19.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MJmVLsjS0R3ZGjHywc3-" version="20.6.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-12-09T10:28:19.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7wnik2B8aMlB0EWVkJu_" version="20.6.0" type="github" pages="10">
   <diagram name="人员功能配置" id="RzzlUH0IGpt5anYlj8Ix">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,7 +359,7 @@
           <mxGeometry x="700" y="210" width="180" height="570" as="geometry" />
         </mxCell>
         <mxCell id="WNL1NnZXKXjJaF4bIw95-2" value="用户资金" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" parent="O87ZYGuWbiM52USWmdV_-6" vertex="1">
-          <mxGeometry x="20" y="380" width="150" height="40" as="geometry" />
+          <mxGeometry x="13" y="370" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O87ZYGuWbiM52USWmdV_-7" value="撮合系统" style="swimlane;whiteSpace=wrap;html=1;" parent="O87ZYGuWbiM52USWmdV_-1" vertex="1">
           <mxGeometry x="880" y="210" width="180" height="570" as="geometry" />
@@ -371,7 +371,7 @@
           <mxGeometry x="1060" y="210" width="180" height="570" as="geometry" />
         </mxCell>
         <mxCell id="tgMOp9137L6SG26nn-0x-0" value="仓位管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="O87ZYGuWbiM52USWmdV_-10">
-          <mxGeometry x="20" y="310" width="150" height="40" as="geometry" />
+          <mxGeometry x="30" y="210" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O87ZYGuWbiM52USWmdV_-14" value="清算结算系统" style="swimlane;whiteSpace=wrap;html=1;" parent="O87ZYGuWbiM52USWmdV_-1" vertex="1">
           <mxGeometry x="1240" y="210" width="180" height="570" as="geometry" />
@@ -400,7 +400,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hm0CC0xqpcpI4vOYokm9-0" value="买卖双方(非爆仓单)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="12Gjz5rq8oXJ4IXmqTbP-0">
+        <mxCell id="Hm0CC0xqpcpI4vOYokm9-0" value="买卖双方(&lt;font color=&quot;#ff3333&quot;&gt;非爆仓单&lt;/font&gt;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="12Gjz5rq8oXJ4IXmqTbP-0">
           <mxGeometry x="0.6385" y="-1" relative="1" as="geometry">
             <mxPoint x="8" as="offset" />
           </mxGeometry>
@@ -444,8 +444,13 @@
         <mxCell id="ePsQPmPNBmwdl_dh70mZ-0" value="本次结算再推送" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.427;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="O87ZYGuWbiM52USWmdV_-1" source="WNL1NnZXKXjJaF4bIw95-4" target="fd5uuqkOozzk06wuxegr-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tgMOp9137L6SG26nn-0x-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#B2C9AB;" edge="1" parent="O87ZYGuWbiM52USWmdV_-1" source="WNL1NnZXKXjJaF4bIw95-4" target="tgMOp9137L6SG26nn-0x-0">
+        <mxCell id="tgMOp9137L6SG26nn-0x-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="O87ZYGuWbiM52USWmdV_-1" source="WNL1NnZXKXjJaF4bIw95-4" target="tgMOp9137L6SG26nn-0x-0">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5OslgGewjcufs1lZNxy-0" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;爆仓与&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;非爆仓单&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="tgMOp9137L6SG26nn-0x-1">
+          <mxGeometry x="-0.2372" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -782,8 +787,11 @@
         <mxCell id="pcmIIjWU8C0gU2lXfuMn-0" value="&lt;font color=&quot;#ff0000&quot;&gt;风控系统&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZXoTsb1Hl5YTreveIg7x-1">
           <mxGeometry x="180" y="90" width="180" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="VqDKMcXWksy7UGq-TzSj-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pcmIIjWU8C0gU2lXfuMn-0">
-          <mxGeometry x="30" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="VqDKMcXWksy7UGq-TzSj-7" value="1. 市价卖出&lt;br&gt;2.爆仓价卖出&lt;br&gt;3.风险基金反向购买" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="pcmIIjWU8C0gU2lXfuMn-0">
+          <mxGeometry x="25" y="240" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NeTGJyzSAucbx7qQ1gyh-0" value="自动减仓机制&lt;br&gt;平摊风险机制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="pcmIIjWU8C0gU2lXfuMn-0">
+          <mxGeometry x="20" y="430" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pcmIIjWU8C0gU2lXfuMn-1" value="订单系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZXoTsb1Hl5YTreveIg7x-1">
           <mxGeometry x="360" y="90" width="180" height="570" as="geometry" />
@@ -793,6 +801,9 @@
         </mxCell>
         <mxCell id="pcmIIjWU8C0gU2lXfuMn-3" value="资金系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZXoTsb1Hl5YTreveIg7x-1">
           <mxGeometry x="540" y="90" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="TkrcFD0P-6oFcL-TW-QP-0" value="平台风险金" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="pcmIIjWU8C0gU2lXfuMn-3">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pcmIIjWU8C0gU2lXfuMn-10" value="仓位系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ZXoTsb1Hl5YTreveIg7x-1">
           <mxGeometry x="720" y="90" width="180" height="570" as="geometry" />
@@ -893,6 +904,16 @@
         </mxCell>
         <mxCell id="VqDKMcXWksy7UGq-TzSj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#B2C9AB;" edge="1" parent="ZXoTsb1Hl5YTreveIg7x-1" source="VqDKMcXWksy7UGq-TzSj-3" target="pcmIIjWU8C0gU2lXfuMn-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TkrcFD0P-6oFcL-TW-QP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=14;fontColor=#FF3333;fillColor=#B2C9AB;" edge="1" parent="ZXoTsb1Hl5YTreveIg7x-1" source="yTmFAK--jWioZniwl4Q0-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TkrcFD0P-6oFcL-TW-QP-2" value="爆仓单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="TkrcFD0P-6oFcL-TW-QP-1">
+          <mxGeometry x="0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
