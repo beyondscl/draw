@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T02:15:30.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MDmviEttxm4gJzCQmuhr" version="20.6.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-12-09T02:17:49.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VquWOEN2IzFYzgzl_AZD" version="20.6.0" type="github" pages="11">
   <diagram name="人员功能配置" id="RzzlUH0IGpt5anYlj8Ix">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GV7TNvFPXVephoCNHnX-5" value="代理商1" style="rounded=0;whiteSpace=wrap;html=1;" parent="k5txMHQtebM3Y-d8MqVT-1" vertex="1">
-          <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GV7TNvFPXVephoCNHnX-6" value="做市2" style="rounded=0;whiteSpace=wrap;html=1;" parent="k5txMHQtebM3Y-d8MqVT-1" vertex="1">
           <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
