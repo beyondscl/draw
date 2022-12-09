@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T06:33:37.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="I1yD44sVbxdZuslWCdD4" version="20.6.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-12-09T06:35:45.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="um6iPftDoe-mt_DoTunu" version="20.6.0" type="github" pages="10">
   <diagram name="人员功能配置" id="RzzlUH0IGpt5anYlj8Ix">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,10 +51,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IfStadbENKX1cSX2Y-Fn-1" value="账户系统&lt;br&gt;user" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IfStadbENKX1cSX2Y-Fn-1" value="用户系统&lt;br&gt;user" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IfStadbENKX1cSX2Y-Fn-2" value="资金系统&lt;br&gt;account" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IfStadbENKX1cSX2Y-Fn-2" value="账户资金系统&lt;br&gt;account" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IfStadbENKX1cSX2Y-Fn-3" value="风控系统&lt;br&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;risk control&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -69,7 +69,7 @@
         <mxCell id="IfStadbENKX1cSX2Y-Fn-6" value="仓位系统&lt;br&gt;position" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IfStadbENKX1cSX2Y-Fn-7" value="清算系统&lt;br&gt;clear" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IfStadbENKX1cSX2Y-Fn-7" value="清算/结算系统&lt;br&gt;clear" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IfStadbENKX1cSX2Y-Fn-8" value="爆仓引擎&lt;br&gt;liquidtion" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -90,11 +90,11 @@
         <mxCell id="IfStadbENKX1cSX2Y-Fn-16" value="用户开仓，平仓，取消挂单等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="200" y="390" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IfStadbENKX1cSX2Y-Fn-17" value="订单撮合成功，收益清算; 合约到期后自动清算收益。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="IfStadbENKX1cSX2Y-Fn-17" value="订单撮合成功，收益结算; 合约到期后自动结算收益。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="200" y="480" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IfStadbENKX1cSX2Y-Fn-18" value="用户开仓，平仓，取消挂单，&lt;br&gt;仓位合并等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="200" y="570" width="230" height="50" as="geometry" />
+        <mxCell id="IfStadbENKX1cSX2Y-Fn-18" value="用户开仓，平仓，取消挂单，保证金计算，仓位合并等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="200" y="580" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IfStadbENKX1cSX2Y-Fn-19" value="减少交易所损失；1赢利者平摊损失，高风险盈利用户强制减仓" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="200" y="670" width="460" height="30" as="geometry" />
